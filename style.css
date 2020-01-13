@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  text-align-last: center;
+  margin-bottom: 15px;
+}
+h2{
+  width: 80px;
+ height: 30px;
+ background-color: #009cff;
+ background-position: right;
+ position: relative; 
+
+
+ 
