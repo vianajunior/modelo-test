@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Responsive Layout</title>
+<style>
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  text-align-last: center;
+  margin-bottom: 15px;
+}
+h2{
+  width: 80px;
+ height: 30px;
+ background-color: #009cff;
+ background-position: right;
+ position: relative; 
+
+
+ 
+
+
+
+
+}
+}
+
+p {
+  
+  text-align-last:right;
+  border: 2px solid black;
+  background-color: #A52A2A;
+  background-position: right; 
+  width: 90%;
+  height: 150px;
+  
+  font-family: Helvetica;
+  color: white;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3{
+    float: left;
+    border: 1px solid green;
+  }
+  .col-lg-1 {
+    width: 33%;
+  }
+  .col-lg-2 {
+    width: 66%;
+  }
+  .col-lg-3 {
+    width: 100%;
+  }
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3{
+    float: left;
+    border: 1px solid green;
+  }
+  .col-md-1 {
+    width: 50%;
+  }
+  .col-md-2 {
+    width: 66%;
+  }
+  .col-md-3 {
+    width: 100%;
+  }
+  @media (max-width: 767px) {
+  .col-cp-1, .col-cp-2, .col-cp-3{
+    float: left;
+    border: 1px solid green;
+  }
+  .col-lg-1 {
+    width: 33%;
+  }
+  .col-lg-2 {
+    width: 66%;
+  }
+  .col-lg-3 {
+    width: 100%;
+  }
+  
+}
+
+  
+}
+
+</style>
+</head>
+<body>
+<h1>Responsive Layout</h1>
+
+<div class="row">
+  <div class="col-lg-1 col-md-1 col-cp-3"><h2>Item 1</h2><p>Ó mar salgado, quanto do teu sal
+São lágrimas de Portugal!
+Por te cruzarmos, quantas mães choraram,
+Quantos filhos em vão rezaram!
+Quantas noivas ficaram por casar
+Para que fosses nosso, ó mar!
+
+Valeu a pena? Tudo vale a pena
+Se a alma não é pequena.
+Quem quer passar além do Bojador
+Tem que passar além da dor.
+Deus ao mar o perigo e o abismo deu,
+Mas nele é que espelhou o céu. </p></div>
+  <div class="col-lg-1 col-md-1 col-cp-3"><h2>Item 2</h2><p>Ó mar salgado, quanto do teu sal
+São lágrimas de Portugal!
+Por te cruzarmos, quantas mães choraram,
+Quantos filhos em vão rezaram!
+Quantas noivas ficaram por casar
+Para que fosses nosso, ó mar!
+
+Valeu a pena? Tudo vale a pena
+Se a alma não é pequena.
+Quem quer passar além do Bojador
+Tem que passar além da dor.
+Deus ao mar o perigo e o abismo deu,
+Mas nele é que espelhou o céu. </p></div>
+  <div class="col-lg-1 col-md-3 col-cp-3"><h2>Item 3</h2><p>Ó mar salgado, quanto do teu sal
+São lágrimas de Portugal!
+Por te cruzarmos, quantas mães choraram,
+Quantos filhos em vão rezaram!
+Quantas noivas ficaram por casar
+Para que fosses nosso, ó mar!
+
+Valeu a pena? Tudo vale a pena
+Se a alma não é pequena.
+Quem quer passar além do Bojador
+Tem que passar além da dor.
+Deus ao mar o perigo e o abismo deu,
+Mas nele é que espelhou o céu. </p></div>
+  
+</div>
+
+</body>
+</html>
